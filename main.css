@@ -1,0 +1,313 @@
+/* general */
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #ececec;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #330066;
+  color: #7fff00;
+  margin-bottom: 20px;
+}
+
+.account-user-line {
+  font-size: 1.5rem;
+  float: right;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+h2 {
+  font-size: 5rem;
+  right: 5%;
+  position: absolute;
+  top: 81px;
+}
+
+ul {
+  padding-top: 113px;
+  list-style: none;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #7fff00;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  font-size: 1.7rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#website-on {
+  color: #ff007f;
+  display: inline;
+}
+
+/* cards */
+h1 {
+  font-size: 3rem;
+  margin-left: 30px;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*justify-content: space-around;*/
+}
+
+.card {
+  height: 446px;
+  width: 310px;
+  border: 2px solid #330066;
+  margin-right: 1.7%;
+  margin-left: 1.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 28px #ce9aff;
+  background-color: white;
+}
+
+.top-one {
+  background-image: url(images/one.jpg);
+  background-size: contain;
+}
+
+.top-two {
+  background-image: url(images/teo.jpg);
+  background-size: cover;
+}
+
+.top-three {
+  background-image: url(images/three.jpg);
+  background-size: cover;
+}
+
+.top-four {
+  background-image: url(images/four.jpg);
+  background-size: contain;
+}
+
+.top-five {
+  background-image: url(images/fibve.jpg);
+  background-size: cover;
+}
+
+.top-six {
+  background-image: url(images/six.jpeg);
+  background-size: cover;
+}
+
+.top-seven {
+  background-image: url(images/seven.jpg);
+  background-size: cover;
+
+}
+
+.top-eigth {
+  background-image: url(images/eigth.jpg);
+  background-size: cover;
+}
+
+
+/* inside cards */
+.top {
+  width: 100%;
+  /*background-color: rgba(140, 255, 26, 0.4)*/
+  height: 160px;
+}
+
+.topss {
+  background-color: rgba(46, 7, 7, 0.9)
+}
+
+.go-bttn {
+  border: none;
+  background-color: transparent;
+  font-size: 7rem;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.view {
+  position: relative;
+  top: -74px;
+  left: 243px;
+  font-size: 1.6rem;
+  width: 10px;
+}
+
+.view-count {
+  position: relative;
+  top: -70px;
+  font-size: 3.6rem;
+  right: -252px;
+  width: 10px;
+}
+
+.name {
+  font-size: 2.3rem;
+  margin-left: 21px;
+  margin-top: 15px;
+}
+
+.date {
+  font-size: 1.3rem;
+  margin-left: 21px;
+  margin-top: 3px;
+}
+
+blockquote {
+  background-color: #ececec;
+  width: 86%;
+  margin: 23px auto 23px auto;
+  height: 46px;
+  font-size: 1.5rem;
+  padding: 5px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+blockquote a {
+  color: #330066;;
+}
+
+.playlist {
+  font-size: 1.4rem;
+  margin-left: 21px;
+}
+
+.playlist-title {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+  margin-left: 21px;
+}
+
+.attachments {
+  margin-left: 21px;
+}
+
+.attachments-count {
+  margin-left: 21px;
+  font-size: 4rem;
+  margin-top: 4px;
+}
+
+/* hovers */
+.card:hover {
+  background-color: rgba(140, 255, 26, 0.4);
+}
+
+.go-bttn-go:hover {
+  transform: rotate(100deg);
+}
+
+/* media */
+@media (max-width: 1400px) {
+  .card {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1325px) {
+  .card {
+    margin-right: 4%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1270px) {
+  .card {
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+}
+
+@media (max-width: 1135px) {
+  .card {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card {
+    margin-right: .5%;
+    margin-left: .5%;
+  }
+}
+
+@media (max-width: 950px) {
+  .card {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/*@media (max-width: 625px) {
+  .fas::before  {
+    display: none
+  }
+
+  .fa-bolt::before,
+  .fa-chevron-down::before {
+    display: inline;
+  }
+  
+  h2 {
+    top: 44px;
+    margin-right: -3px;
+  }
+
+  header {
+    height: 140px;
+  }
+
+  .account-user-line {
+    margin-right: 88px;
+  }
+
+}*/
+
+@media (max-width: 625px) {
+   .fas::before  {
+    display: none
+  }
+
+  .fa-bolt::before,
+  .fa-chevron-down::before {
+    display: inline;
+  }
+
+  .account-user-line {
+    margin-right: 88px;
+  }
+  h2 {
+    top: 44px;
+    margin-right: -3px;
+  }
+
+  header {
+    height: 140px;
+  }
+
+  .account-user-line {
+    margin-right: 88px;
+  }
+  
+}
